@@ -1,0 +1,54 @@
+----------------------------------------------------------------
+Using block_header_hash from block 2897115
+block_header_hash from 2897115     : 6448d02e71beb499b7e46c1033ede91c6718fdc8b9e0ea2cf19d19f2ae0437a1
+Random digits from 2897115         : 64480271499746103391671889021919204371
+Calling the dexie API... 
+Call to the dexie API successful 
+----------------------------------------------------------------
+Remainder of previous draw added to current draw :
+   No remainder in previous draw
+----------------------------------------------------------------
+Current draw eligible trades      : 158
+Remainder eligible trades         : 
+Total eligible trades             : 158
+Number of draws                   : 15
+Remainder of current draw         : 8
+The following puzzle hash will be included in the next draw
+bb12cfbca07ac88d12c03a6f501722d86d19ff5f07f5e1110b7077551317b7a3
+a08a065d46fe9de252b69b0b197ea50b3b1cfc296c856e870a2cec772abd3fd8
+0cd19bff9fcc659ec8403a6be57c87437a4cf346488fb92d193d893328140031
+d299df5d8b29f29721ac3424f28b89e2006e0ee33ca9367707bd0b0f2dc97269
+d32b66e6a86622913fdb1b4de6b974a83f6ae864b4813d92f9b7b80aff9b2fcf
+ce2ee13f5a6310b1236e33683b43b81bcd302cabac5a9db86cee4e7246b2024e
+4bd787eef62cc89a83ca85aee5c926381ccc4e513e30cb7f6f63f5ff7968c02b
+ef775ef4f3d7894d5cb484741ee82eb22b9c23f71c3428df2e7df8357f723aa3
+----------------------------------------------------------------
+----------------------------------------------------------------
+block_header_hash from 2897115    : 6448d02e71beb499b7e46c1033ede91c6718fdc8b9e0ea2cf19d19f2ae0437a1
+Random digits from 2897115        : 64480271499746103391671889021919204371
+Number of rares left to be won    : 830
+Sample rejection number           : 9961
+----------------------------------------------------------------
+Verifying if the current block header hash provides enough random numbers...
+Current max valid (sample rejected) random numbers = 34
+----------------------------------------------------------------
+Total single digits random numbers : 38
+Total multiple digits random numbers : 34
+----------------------------------------------------------------
+draw,random 1,xch_address,random 2,Rare Chunk Airdropped
+1,7,xch1g55f2zwxlp3cstpf56ufd770sx5cygs2artttj26yz4f2l2mtcgqttzh8v,639,nft1kuel0cqtq5yvr0nds5pfsnmagllz6c4k7xwdz5xtjmw9y8qk8dsqykjwtg
+2,5,xch13f7sayhpwcd00sdt5urklkuylhfml97lmkdp5rgsz2w6y0lfc82qcge49p,331,nft1v2pf0w2vsn2r2ygsslfczqaez8k5qnzt88qpnfm7er0tcrr497vs3jj070
+3,5,xch1eyy2fqww3ds87gm9v2g6tsm8syqgs8utcn3ykhmcy0rhdfdefqeqevq7qz,653,nft1p932dz309t87l6cwpr8ms94cqh6nlpagxuxgk2n92865pcxnyw3qj8aage
+4,9,xch1mfyxjk5ac8j80f0yufrr3us40cdwc0rugf3pnsnamt6urwmt7l7q44qah0,558,nft18v6j5vne7jv7cgekgshfy90qeyqa4dylk5hpjd4rh2shslpw9jgs94tvhh
+5,1,xch1mq5uulywsc4zhl2va320rykwnfq0d2g7nycesqjjsffdkv34jltshvcj8y,272,nft1rdvhyn3kananethf9gdkxtlvvvmg4ckzzedtzdyztg06u3ex8mfsz67wlh
+6,3,xch163pgj2thf6jwn0engdq7mppqlaxe0nzs503rqcf52mmdlqnrn9ksjaggh9,225,nft19a36z8jt8ga57ejpy0r3wfct5jxdyqskl7vsfjp58rq2fllp5lqsjxa9vp
+7,8,xch163pgj2thf6jwn0engdq7mppqlaxe0nzs503rqcf52mmdlqnrn9ksjaggh9,510,nft1v3aq8pg6wd5f6lug5xsvyguh323f4camzyw28dn9ncg4tkza0jdsjgqcz3
+8,2,xch1r0ukqtcvwqhcudg53xuv90hvqm4d5m7jd57zkt8mkqkdtk6e6dlqr6rcqg,670,nft1su3rlps7edyxukluzqur4z2l2h6xzh99xgyqxrfkc6khk2ucuxeque8rkq
+9,5,xch12s550dwp74vq2vf3wkrjt0z3ym9p5h0s38c8yw5a504maqt4gj4su9r63y,18,nft1ugw0vrycjdalkl0qzuphctxef87tgzvh9ygp282y89qk5p8phkeq2u0d6h
+10,10,xch1mxzf2apvwvmaqj3dcqmvm673r0pxm0hpsvjnqyatlz7zcsn87ngslerk0h,617,nft1xmdeqsjaw8fuxwxt75r0z53krscee30callf5aqzmj9lga0nxl2qpsu5t8
+11,10,xch15x0yrskfmnjlz48jp5kdvh7lhgm9zqxxj4m80llkqwvwtapq8k9sc6f92g,822,nft1fs8mj2glvdmhtp0qtwgcr06zhvzj6gv6q2vv5m5xvrl0tgl4uq5svnsu8p
+12,8,xch188wt0f4204uetsvz2p0yavpmcp860vkljwed6d3alx3rqjrww8zq6388y4,461,nft1jvtpfhvvxr0lkm8p2ga260d3nl6f3aqh347q5psc0t0ngegamujsl3mrs2
+13,5,xch1dkal089jpvs2lz8st7nncnk5h3j49dd28uhywxwwle8z7fteyezsasyxff,294,nft1teak88dsnpm5qa7ctttsmkk3pp0x3spewgp6jxev9vyeawwtyvhscjf65n
+14,7,xch1m2pr4qpwq49ryytr6ym0qscxxth7mwwaux6havksxexru5vg2s6qwr96k4,204,nft1rnhwywdcuquqqunzl4x8qhmkurtjlegnlz7ussduh98fze9p0zfsr6x8ea
+15,2,xch1lv4nk5254380st6lrv9zkjhq4fdhljmf9e550cvn6vcrxrzh5dqsdnrnuf,340,nft1kplyxsevgczyc7xp9q7yctqt9ynnqmwxv8pm3yc87elshapwg2rqwkcjxv
+----------------------------------------------------------------
