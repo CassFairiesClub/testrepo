@@ -1,8 +1,6 @@
 # Provably Fair Rare @TheChunksNFT airdrop
 Every 10 trades of original offerfiles accepted via Dexie.space (0.1 xch offerfiles created with the TheChunksNFT wallet) a random winner is picked among those 10 trades and will be airdropped a rare Chunk (top 1K)
 
-To be completed : why -> dexie offers being botted, 168 rare Chunks already botted/accepted, 830 rare Chunks left, 2 rare Chunks reserved for giveaway to outstanding members of the Phunk community
-
 One draw will be made every single day until all of the rare Chunks left in the wallet have been drop (830 rare chunks left.
 
 ## Requirements
@@ -16,10 +14,6 @@ You need a chia **full node** to make rpc calls scanning the blockchain
 You need to be in the chiadevtools venv to encode to bech32m the winning addresses.
 
 This tool is only available for linux OS.
-
-## Files
-The rare_nftids.txt stores the current rare chunks left in the pool to be airdropped
-The next_block_remainder.txt stores the "leftover trades (<10)" that will be included in the next draw
 
 ## How to run the script and verify yourself a past draw
 1. Download the verify.sh script from the github repository and make it executable
