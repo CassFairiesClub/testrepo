@@ -7,8 +7,8 @@ if [ $1 -eq 2883291 ]
     block=$1
     previousblock=2864212
     echo "Scanning from block $previousblock to $block (24h)"
-    wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/initial_state/next_block_remainder_$block.txt -O next_block_remainder.txt
-    wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/initial_state/rare_nftids_$block.txt -O rare_nftids.txt
+    wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/initial_state/next_block_remainder.txt -O next_block_remainder.txt
+    wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/initial_state/rare_nftids.txt -O rare_nftids.txt
   else
     # Scan the last 4608 blocks (24h)
     block=$1
