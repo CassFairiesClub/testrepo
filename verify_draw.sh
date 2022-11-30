@@ -7,11 +7,15 @@ if [ $1 -eq 2883291 ]
     block=$1
     previousblock=2864212
     echo "Scanning from block $previousblock to $block (24h)"
+    wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/initial_state/next_block_remainder_$block.txt -O next_block_remainder.txt
+    wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/initial_state/rare_nftids_$block.txt -O rare_nftids.txt
   else
-  	# Scan the last 4608 blocks (24h)
-  	block=$1
+    # Scan the last 4608 blocks (24h)
+    block=$1
     previousblock=$(($block-4608))
     echo "Scanning from block $previousblock to $block"
+    wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/$block/next_block_remainder_$block.txt -O next_block_remainder.txt
+    wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/$block/rare_nftids_$block.txt -O rare_nftids.txt
 fi
 
 # -------------------------------------------------------------------------------------
@@ -64,10 +68,6 @@ current_block_data=`curl -s --insecure --cert ~/.chia/mainnet/config/ssl/full_no
 hash=$(echo $current_block_data  | jq '.block_record.header_hash' | cut -c 4-67)
 digits_hash=$(echo $hash | tr -cd '[[:digit:]]')
 mkdir $block $block/json_dexie 
-
-wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/$block/next_block_remainder_$block.txt -O next_block_remainder.txt
-wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/$block/rare_nftids_$block.txt -O rare_nftids.txt
-
 
 cp next_block_remainder.txt $block/next_block_remainder_$block.txt
 
