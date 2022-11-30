@@ -66,6 +66,10 @@ hash=$(echo $current_block_data  | jq '.block_record.header_hash' | cut -c 4-67)
 digits_hash=$(echo $hash | tr -cd '[[:digit:]]')
 mkdir $block $block/json_dexie 
 
+wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/$block/next_block_remainder_$block.txt -O next_block_remainder.txt
+wget https://raw.githubusercontent.com/CassFairiesClub/testrepo/master/$block/rare_nftids_$block.txt -O rare_nftids.txt
+
+
 cp next_block_remainder.txt $block/next_block_remainder_$block.txt
 
 echo "----------------------------------------------------------------" | tee -a $block/$block.log
@@ -228,16 +232,4 @@ for i in $(cat $block/deleted_nftids_$block.txt)
 do
 	sed -i "/$i/d" rare_nftids.txt
 done
-
-echo "----------------------------------------------------------------" | tee -a $block/$block.log
-git add .
-echo "git commit $block"
-git commit -m "$block commit"
-echo "git push $block"
-git push origin master
-echo "----------------------------------------------------------------" | tee -a $block/$block.log
-
-
-
-
 
