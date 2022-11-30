@@ -1,18 +1,17 @@
 #!/bin/bash
 # Cass@TheChunksNFT provably fair rare Chunks drop
 # Every ten trades samples a random winner is picked and airdropped a free rare Chunk
-if [ $# -eq 1 ]
+if [ $1 -eq 2883291 ]
   then
-    # Scan the last 4608 blocks (24h)
+    # Scan from the cutoff block 2883291
     block=$1
-    previousblock=$(($block-4608))
+    previousblock=2883291
     echo "Scanning from block $previousblock to $block (24h)"
   else
-  	# Only for the first draw : scan from block 2864212 as annonced on the following tweet : https://twitter.com/CassFairiesClub/status/1595549236623548418?s=20&t=YgwsOwpH4TVHnl-ZkH36Jw"
-  	# Otherwise scan the last 4608 blocks (24h)
+  	# Scan the last 4608 blocks (24h)
   	block=$1
-  	previousblock=$2
-  	echo "Scanning from block $previousblock to $block"
+    previousblock=$(($block-4608))
+    echo "Scanning from block $previousblock to $block"
 fi
 
 # -------------------------------------------------------------------------------------
