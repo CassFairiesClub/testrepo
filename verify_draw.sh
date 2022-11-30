@@ -5,7 +5,7 @@ if [ $1 -eq 2883291 ]
   then
     # Scan from the cutoff block 2883291
     block=$1
-    previousblock=2883291
+    previousblock=2864212
     echo "Scanning from block $previousblock to $block (24h)"
   else
   	# Scan the last 4608 blocks (24h)
