@@ -66,10 +66,7 @@ hash=$(echo $current_block_data  | jq '.block_record.header_hash' | cut -c 4-67)
 digits_hash=$(echo $hash | tr -cd '[[:digit:]]')
 mkdir $block $block/json_dexie 
 
-wget https://raw.githubusercontent.com/CassFairiesClub/TheChunksNFT/main/next_block_remainder.txt -O next_block_remainder.txt
 cp next_block_remainder.txt $block/next_block_remainder_$block.txt
-wget https://raw.githubusercontent.com/CassFairiesClub/TheChunksNFT/main/rare_nftids.txt -O rare_nftids.txt
-
 
 echo "----------------------------------------------------------------" | tee -a $block/$block.log
 echo "Using block_header_hash from block $block" | tee -a $block/$block.log
